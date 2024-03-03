@@ -1,7 +1,5 @@
-// dll_detection.h
-
-#ifndef DLL_DETECTION_H
-#define DLL_DETECTION_H
+#ifndef UKNOWNDLL_H
+#define UKNOWNDLL_H
 
 #include <Windows.h>
 #include <Psapi.h>
@@ -65,4 +63,4 @@ void DetectUnknownModules() {
     CloseHandle(hProcess);
 }
 
-#endif // DLL_DETECTION_H
+#endif // UKNOWNDLL_H
